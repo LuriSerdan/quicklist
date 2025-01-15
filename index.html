@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickList</title>
+</head>
+<body>
+    <img src="./images/logo.svg" alt="logo da QuickList, se trata do nome escrito em cinza com três traços cor de rosa ao lado.">
+
+    <main>
+        <a href="#">
+            <img src="./images/link button.svg" alt="Botão de voltar para a Home Page">
+        </a>
+
+        <h1>Compras da semana</h1>
+
+        <form>
+            <input type="text" id="addItem" placeholder="Adicione um novo item" required />
+            
+            <button type="submit">Adicionar item</button>
+        </form>
+
+        <div id="items">
+            <ul>
+                <li><input type="checkbox">
+                    Pão de forma
+                    <button>
+                        <img src="./images/icon delete.svg" alt="">
+                    </button>
+                </li>
+                <li><input type="checkbox">
+                    Pão de forma
+                    <button>
+                        <img src="./images/icon delete.svg" alt="">
+                    </button>
+                </li>
+                <li><input type="checkbox">
+                    Pão de forma
+                    <button>
+                        <img src="./images/icon delete.svg" alt="">
+                    </button>
+                </li>
+                <li><input type="checkbox">
+                    Pão de forma
+                    <button>
+                        <img src="./images/icon delete.svg" alt="">
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <footer style="background-color: red;">
+            <img src="./images/warning-circle-filled.svg" alt="">
+
+            <p>O item foi removido da lista</p>
+            
+            <button>
+                <img src="./images/delete-small.svg" alt="">
+            </button>
+        </footer>
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
