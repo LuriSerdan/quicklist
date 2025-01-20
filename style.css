@@ -151,7 +151,7 @@ li button:hover{
 }
 
 footer {
-    display: flex;
+    display: none;
     align-items: center;
 
     background-color: #C93847;
